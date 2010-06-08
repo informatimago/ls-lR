@@ -1,0 +1,110 @@
+.:
+total 2071434
+-rw-r--r--   1 root     other    938948093 May 18  2009 ls-lR
+-rw-r--r--   1 root     other    120835965 May 19  2009 ls-lR.gz
+drwxr-xr-x  37 infoadmin infoadmin      37 Dec  4 14:57 vol1
+drwxr-xr-x  47 infoadmin infoadmin      48 Oct 28 17:04 vol2
+drwxr-xr-x  44 infoadmin infoadmin      49 Jul 21  2008 vol3
+drwxr-xr-x   3 infoadmin infoadmin       3 Jul 29  2008 vol4
+
+./vol1:
+total 254
+drwxr-xr-x   3 infoadmin infoadmin       3 Jul 28  2008 analytics.washington.edu
+drwxrwxr-x   6 infoadmin infoadmin       7 Dec 10 00:14 archive.ubuntu.org
+drwxr-xr-x   4 infoadmin infoadmin       4 Jun  1  2009 asturix.net
+drwxr-xr-x   3 infoadmin infoadmin       3 Jul 28  2008 bofh.be
+drwxr-xr-x  23 infoadmin infoadmin      41 Sep 29 00:29 centos.org
+drwxr-xr-x   3 infoadmin infoadmin       3 Dec  3  2008 cherokee-project.com
+drwxr-xr-x   3 infoadmin infoadmin       3 Oct  6  2008 e-ciencia
+drwxrwxr-x  43 infoadmin infoadmin      46 Dec 10 01:00 eclipse.org
+drwxr-xr-x   3 infoadmin infoadmin       3 Jul 28  2008 educa.madrid.org
+drwxr-xr-x   4 infoadmin infoadmin       4 Jul 29  2008 finkproject.org
+drwxrwxr-x  71 infoadmin infoadmin      78 Dec  9 23:19 ftp.apache.org
+drwxr-xr-x   3 infoadmin infoadmin       3 Jul 28  2008 ftp.delorie.com
+drwxr-xr-x   3 infoadmin infoadmin       3 Nov 27 19:23 ftp.freebsd.org
+drwxr-xr-x   3 infoadmin infoadmin       3 Jul 28  2008 ftp.freshrpms.net
+drwxr-xr-x   3 infoadmin infoadmin       3 Jul 28  2008 ftp.gimp.org
+drwxr-xr-x   3 infoadmin infoadmin       3 Jul 28  2008 ftp.netbsd.org
+drwxr-xr-x   3 infoadmin infoadmin       3 Jul 28  2008 ftp.octave.org
+drwxr-xr-x   3 infoadmin infoadmin       3 Jul 28  2008 ftp.openbsd.org
+drwxr-xr-x  23 infoadmin infoadmin      23 Aug 31 15:20 ftp.opera.com
+drwxr-xr-x   3 infoadmin infoadmin       3 Jul 28  2008 ftp.sunfreeware.com
+drwxr-xr-x   3 infoadmin infoadmin       3 Jul 28  2008 ftp.suse.com
+drwxr-xr-x   3 infoadmin infoadmin       3 Jul 28  2008 ftp.trolltech.no
+drwxr-xr-x   3 infoadmin infoadmin       3 Jul 28  2008 ftp.tuxum.com
+drwxr-xr-x   3 infoadmin infoadmin       3 Nov 27 19:05 ftp2.freebsd.org
+drwxr-xr-x   7 infoadmin infoadmin       7 Oct 22 03:13 gentoo.org
+drwxr-xr-x   8 infoadmin infoadmin       8 Jul 29  2008 guadalinex.org
+drwxr-xr-x   3 infoadmin infoadmin       3 Jul 28  2008 ibiblio.org
+drwxr-xr-x   3 infoadmin infoadmin       3 Jul 28  2008 mirrors.hpcf.upr.edu
+drwxr-xr-x   4 infoadmin infoadmin      13 May 13  2009 opencsw.org
+drwxr-xr-x   5 infoadmin infoadmin       6 Mar 16  2009 openoffice.org
+drwxr-xr-x   3 infoadmin infoadmin       3 Jul 28  2008 proyectonave.es
+drwxr-xr-x   3 infoadmin infoadmin       3 Jul 28  2008 pulsar.unizar.es
+drwxr-xr-x  23 infoadmin infoadmin      28 Nov  3  2008 rediris
+drwxr-xr-x   3 infoadmin infoadmin       3 Jul 24 13:20 rpmfusion.org
+drwxrwsr-x   5 infoadmin infoadmin       5 Mar 27  2008 rsync.flock.com
+
+./vol1/analytics.washington.edu:
+total 6
+drwxrwxr-x   3 infoadmin infoadmin       3 Oct  8  2003 downloads
+
+./vol1/analytics.washington.edu/downloads:
+total 6
+drwxr-xr-x   4 infoadmin infoadmin      17 Aug  6  2008 quantian
+
+./vol1/analytics.washington.edu/downloads/quantian:
+total 27386277
+-rw-r--r--   1 infoadmin infoadmin     487 Mar  2  2006 HEADER.html
+-rw-r--r--   1 infoadmin infoadmin 2045859840 Oct 31  2004 Quantian_0.6.9.1.iso
+-rw-r--r--   1 infoadmin infoadmin 2013771776 Nov 29  2004 Quantian_0.6.9.2.iso
+-rw-r--r--   1 infoadmin infoadmin      55 Nov 29  2004 Quantian_0.6.9.2.iso.md5sum.txt
+-rw-r--r--   1 infoadmin infoadmin 2055956480 Dec 12  2004 Quantian_0.6.9.3.iso
+-rw-r--r--   1 infoadmin infoadmin 1756133376 Sep  7  2004 Quantian_0.6.iso
+-rw-r--r--   1 infoadmin infoadmin 2566950912 Dec 12  2005 Quantian_0.7.9.1.iso
+-rw-r--r--   1 infoadmin infoadmin 2858532864 Mar  1  2006 Quantian_0.7.9.2.iso
+-rw-r--r--   1 infoadmin infoadmin 704108544 Aug  6  2008 Quantian_UseR2008_tutorial.iso
+-rw-r--r--   1 infoadmin infoadmin      65 Aug  6  2008 Quantian_UseR2008_tutorial.iso.md5sum.txt
+-rw-r--r--   1 infoadmin infoadmin    4068 Mar  2  2006 README.html
+-rw-r--r--   1 infoadmin infoadmin 10827776 Oct 26  2004 boot_0.6.9.x.iso
+drwxr-xr-x   2 infoadmin infoadmin      11 Mar  1  2006 md5sums
+-rw-r--r--   1 infoadmin infoadmin    1363 Sep  5  2005 quantian.css
+drwxr-xr-x   2 infoadmin infoadmin      17 Dec 16  2005 torrents
+
+./vol1/analytics.washington.edu/downloads/quantian/md5sums:
+total 21
+lrwxrwxrwx   1 infoadmin infoadmin      14 Jul 21  2008 HEADER.html -> ../HEADER.html
+-rw-r--r--   1 infoadmin infoadmin      55 Nov  2  2004 Quantian_0.6.9.1.iso.md5sum.txt
+-rw-r--r--   1 infoadmin infoadmin      55 Dec 12  2004 Quantian_0.6.9.3.iso.md5sum.txt
+-rw-r--r--   1 infoadmin infoadmin      55 Sep  8  2004 Quantian_0.6.iso.md5sum.txt
+-rw-r--r--   1 infoadmin infoadmin      55 Dec 12  2005 Quantian_0.7.9.1.iso.md5sum.txt
+-rw-r--r--   1 infoadmin infoadmin      55 Mar  1  2006 Quantian_0.7.9.2.iso.md5sum.txt
+lrwxrwxrwx   1 infoadmin infoadmin      14 Jul 21  2008 README.html -> ../README.html
+-rw-r--r--   1 infoadmin infoadmin      51 Nov  4  2004 boot_0.6.9.x.iso.md5sum.txt
+lrwxrwxrwx   1 infoadmin infoadmin      15 Jul 21  2008 quantian.css -> ../quantian.css
+
+./vol1/analytics.washington.edu/downloads/quantian/torrents:
+total 1479
+lrwxrwxrwx   1 infoadmin infoadmin      14 Jul 21  2008 HEADER.html -> ../HEADER.html
+-rw-r--r--   1 infoadmin infoadmin   14027 Aug 11  2004 Quantian_0.4.9.5.iso.torrent
+-rw-r--r--   1 infoadmin infoadmin   14087 Aug 11  2004 Quantian_0.4.9.6.iso.torrent
+-rw-r--r--   1 infoadmin infoadmin   21408 Aug 11  2004 Quantian_0.5.9.1.iso.torrent
+-rw-r--r--   1 infoadmin infoadmin   14170 Aug 11  2004 Quantian_0.5.9.2.cd.iso.torrent
+-rw-r--r--   1 infoadmin infoadmin   24648 Aug 11  2004 Quantian_0.5.9.2.iso.torrent
+-rw-r--r--   1 infoadmin infoadmin   30168 Aug 11  2004 Quantian_0.5.9.3.iso.torrent
+-rw-r--r--   1 infoadmin infoadmin   33688 Sep  8  2004 Quantian_0.5.9.4.iso.torrent
+-rw-r--r--   1 infoadmin infoadmin   14083 Aug 11  2004 Quantian_0.5.iso.torrent
+-rw-r--r--   1 infoadmin infoadmin   38608 Dec  1  2004 Quantian_0.6.9.2.iso.torrent
+-rw-r--r--   1 infoadmin infoadmin  157110 Aug 21  2005 Quantian_0.6.9.3.iso.torrent
+-rw-r--r--   1 infoadmin infoadmin  196116 Dec 15  2005 Quantian_0.7.9.1.iso.torrent
+lrwxrwxrwx   1 infoadmin infoadmin      14 Jul 21  2008 README.html -> ../README.html
+-rw-r--r--   1 infoadmin infoadmin     319 Aug 11  2004 boot_0.5.9.2.iso.torrent
+lrwxrwxrwx   1 infoadmin infoadmin      15 Jul 21  2008 quantian.css -> ../quantian.css
+
+./vol1/archive.ubuntu.org:
+total 15901
+drwxrwsr-x  32 infoadmin infoadmin      32 Oct 29 18:12 dists
+drwxrwsr-x   2 infoadmin infoadmin     891 Dec  9 23:26 indices
+-rw-r--r--   1 infoadmin infoadmin 7922993 Dec  9 23:25 ls-lR.gz
+drwxrwsr-x   6 infoadmin infoadmin       6 Jan 14  2008 pool
+drwxrwsr-x   3 infoadmin infoadmin       4 Feb 13  2008 project

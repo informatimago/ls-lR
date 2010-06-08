@@ -1,0 +1,175 @@
+brace expansion:
+
+    x{abc,def}z   --> xabcz xdefz
+    x{a*bc,d?ef}z --> xa*bcz xd?efz
+
+    x{5..20..2}z  --> x5z x7z x9z x11z x13z x15z x17z x19z
+    x{05..20..2}z --> x05z x07z x09z x11z x13z x15z x17z x19z
+    x{9..1..2}z   --> x9z x7z x5z x3z x1z
+    x{9..1..-2}z  --> x9z x7z x5z x3z x1z
+
+
+tilde expansion:
+
+    ~ab"c"   --> ~abc
+    ~ab'c'   --> ~abc
+    ~ab\c    --> ~abc
+
+    ~abc     --> ~abc           # if no user abc exist.
+    ~abc     --> /home/abc      # if user abc exists.
+    ~abc/... --> /home/abc/...
+
+    ~        --> $HOME
+    ~/...    --> $HOME/...
+
+    ~+       --> $PWD
+    ~-       --> $OLDPWD
+    ~[+-]N   --> directory stack
+
+
+
+$param
+${param}
+$(command)
+$(( arithmetic ))
+
+parameters:
+
+    ${!indirection}
+
+    ${parameter:-word} default value when parameter unset or empty.
+    ${parameter:=word} assign default value when parameter unset or empty.
+    ${parameter:?word} error when parameter unset or empty.
+    ${parameter:+word} alternate value when parameter unset or empty.
+
+    ${parameter:offset}          suffix
+    ${parameter:offset:length}   substring
+
+
+    ${!prefix*} names matching prefix (list the variables) in one word
+    ${!prefix@} names matching prefix (list the variables) in several words
+
+    ${!name[*]} expands to the indicies used in name[] in one word
+    ${!name[@]} expands to the indicies used in name[] in several words
+
+    ${#parameter} length of the value * or @ = number of positional parameters.
+    ${#parameter[@]} length of the array
+    ${#parameter[*]} length of the array
+
+    ${parameter#word}  removing shortest matching prefix pattern
+    ${parameter##word} removing longest  matching prefix pattern
+
+    ${parameter%word}  removing shortest matching suffix pattern
+    ${parameter%%word} removing longest  matching suffix pattern
+
+    ${parameter/pattern/string} pattern substitution
+
+    ${parameter^pattern}    upcase first matching pattern
+    ${parameter^^pattern}   upcase all matching pattern
+    ${parameter,pattern}    downcase first matching pattern
+    ${parameter,,pattern}   downcase all matching pattern
+
+commands:
+
+    $(command arguments...)
+    `command arguments...`
+
+    "$(command arguments...)"  without word splitting and 
+    "`command arguments...`"   pathname expansion on the result.
+
+arithmetic expressions:
+
+    $((expression))
+
+process substitution:
+
+    <( ... )
+    >( ... )
+
+pathname expansion:
+
+    *  any string
+    ?  any character
+    [...]   enclosed characters
+    [^...]  not enclosed characters
+    [!...]  not enclosed characters
+
+    [[:class:]] characters in class = alnum alpha ascii blank cntrl
+                                      digit graph lower print punct
+                                      space upper word xdigit
+
+    [[=c=]]       characters in same collation class.
+    [[.symbol.]]  characters in given collation class named by symbol.
+
+    ?(pattern-list)  0..1 occurences
+    *(pattern-list)  0..n occurences
+    +(pattern-list)  1..n occurences
+    @(pattern-list)  one of the patterns (alternatives).
+    !(pattern-list)  none of the patterns (not one of the alternatives).
+
+
+quote removal
+
+  unquoted quotes \ ' " are removed.
+
+
+redirections
+
+   >
+   <
+   2>&1
+
+   [n]<word
+   [n]>word
+   [n]>>word append
+   &>word >&word redirects both stdout and stderr
+   &>>word
+
+   <<-word
+     here document
+   word
+
+   <<-'word'
+     here document
+   word
+
+   <<-"word"
+     here document
+   word
+
+   <<<word  here string
+
+   
+   [n]<&word  dup
+   [n]>&word  dup
+
+   [n]<&digit- moving digit to n
+   [n]>&digit- moving digit to n
+   
+   [n]<>word I/O
+
+
+------------------------------------------------------------------------
+Case sensitive.
+
+abc    symbol (string designator)
+a\bc   symbol (string designator)
+|abc|  symbol (string designator)
+"abc"  string
+
+#.expr         lisp expression...
+
+#.(setf v "toto")
+#.v
+
+#.(concat "abc" v "def")
+
+,(concat "abc" v "def")
+,@(brace "x" '("abc" "def") "z")  
+,v
+,@v
+
+
+------------------------------------------------------------------------
+
+
